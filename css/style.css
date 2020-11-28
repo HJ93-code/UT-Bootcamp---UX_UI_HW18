@@ -203,7 +203,7 @@ section:not(.hero){
 
 .scroll-down{
     position: absolute;
-    bottom: .5rem;
+    bottom: 1rem;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
