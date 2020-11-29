@@ -270,3 +270,31 @@ section:not(.hero){
         opacity: 1;
     }
 }
+
+/* About Styles */
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.heading-group{
+    color: var(--dark-color);
+    margin-bottom: 5rem;
+}
+
+.section-head-small{
+    display:block;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #999;
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+}
+
+.section-head-large{
+    font-size: 1.8rem;
+    font-family: var(--heading-font-family);
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+}
