@@ -31,19 +31,19 @@
           <a href="index.html" class="nav-link">Home</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="nav-link">About</a>
+        <a href="#about" class="nav-link">About</a>
     </li>
     <li class="nav-item">
-        <a href="#" class="nav-link">Skills</a>
+        <a href="#skills" class="nav-link">Skills</a>
     </li>
     <li class="nav-item">
-        <a href="#" class="nav-link">Experience</a>
+        <a href="#experience" class="nav-link">Experience</a>
     </li>
     <li class="nav-item">
-        <a href="#" class="nav-link">Portfolio</a>
+        <a href="#portfolio" class="nav-link">Portfolio</a>
     </li>
     <li class="nav-item">
-        <a href="#" class="nav-link">Contact</a>
+        <a href="#contact" class="nav-link">Contact</a>
     </li>
   </ul>
 
@@ -130,7 +130,10 @@
             </div>
         </div>
 
-        <div class="heading-group">
+
+<section class="Software & Web Technologies" id="skills">
+     <div class="container">
+         <div class="heading-group">
             <span class="section-head-small">What I use</span>
             <h5 class="section-head-large">Software & Web Technologies</h5>
         </div>
@@ -193,8 +196,140 @@
         </div>
     </div>
 </section>
+
+
+<section class="work-experience" id="experience">
+    <div class="container">
+        <div class="heading-group">
+            <span class="section-head-small">Previous employment</span>
+            <h5 class="section-head-large">Work experience</h5>
+        </div>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-heading">
+                    <h3 class="timeline-entry-name">IT intern, PMO</h3>
+                    <span>Academy Sports + Outdoors| 2019-2020</span>
+                </div>
+                <p>
+                    Governed with the online customer and marketing technology as an IT intern in 
+                    their apprenticeship program for the Design Ops team. Strengthened relations with 
+                    product managers to identify and deliver customer-based solutions within Academy's 
+                    online and mobile experience. 
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-heading">
+                    <h3 class="timeline-entry-name">Team Lead, Fullfillment Center</h3>
+                    <span> Academy Sports + Outdoors| 2015-2019</span>
+                </div>
+                <p>
+                    Solution-focused leader with more than three years in overseeing fulfillment and service flow. 
+                    Aligned with surrounding retail stores in the inventory and ship out dates to meeting customer demands.
+                    Managed the day to day tasks of my team to ensure we were meeting capacity expectations set for the week.
+                </p>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-heading">
+                    <h3 class="timeline-entry-name">Store Associate</h3>
+                    <span>Clarks| 2014-2015</span>
+                </div>
+                <p>
+                    Solution-focused leader with more than three years in overseeing fulfillment and,
+                    service flow. Aligned with surrounding retail stores in the inventory and ship out 
+                    dates to meeting customer demands. 
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <div class="section-heading">
+            <span class="section-head-small">Portfolio</span>
+            <h5 class="section-head-large">View some of my recent work</h5>
+        </div>
+        <div class="portfolio-item">
+            <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                <img src="images/portitem1.jpeg" alt="">
+            </div>
+            <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+                <h6>Web Design</h6>
+                <h1>US Department of Labor </h1>
+                <p>
+                A redesign of the Department of labor's information architecture and user interface
+                 that users can have a better sense of direction
+                in order to access their resources in a timely manner.
+                </p>
+                <a href="#" class="cta">View Details</a>
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+                <h6>Responsive Web Design</h6>
+                <h1>OptiMeal</h1>
+                <p>
+                Responsive web design execution to increase usability and with plans to implement 
+                solutions for a budget cooking app.
+                </p>
+                <a href="#" class="cta">View Details</a>
+            </div>
+            <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+                <img src="images/portitem1.jpeg" alt="">
+            </div>
+        </div>
+        <div class="portfolio-item">
+            <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+                <img src="images/file.png" alt="">
+            </div>
+            <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
+                <h6>Web Design</h6>
+                <h1>Product Sketch</h1>
+                <p>
+                Department of Labor Responsive redesign that users can havee a better sense of direction
+                in order to access their resources in a timely manner.
+                </p>
+                <a href="#" class="cta">View Details</a>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <section class="contact" id="contact">
+    <div class="container">
+        <div class="section-heading">
+            <span class="section-head-small">Contact me</span>
+            <h5 class="section-head-large">Let's work together</h5>
+        </div>
+        <form action="" data-aos="fade-up" data-aos-delay="300">
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+            <label for="service">Services :</label>
+            <select name="services" id="services">
+                <option value="">User Research</option>
+                <option value="">Prototyping</option>
+                <option value="">Basic HTML / CSS</option>
+            </select>
+            <label for="subject">Subject :</label>
+            <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</section>
+
+
+
 </main>
+
 <!--Link JS-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="main.js"></script>
+
 </body>
 </html>
