@@ -11,7 +11,6 @@ menuToggle.addEventListener('click', function(){
 });
 
 
-
 navList.addEventListener('click', function(e){
     let clickedElement = e.target;
 
